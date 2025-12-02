@@ -10,7 +10,7 @@ export default function MainPage({ envVar }: EnvVar) {
             <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
                 <div className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
                     <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-                        Hello World `${envVar || 'undefined'}`
+                        Hello World `${envVar || ' undefined '}`
                     </code>
                 </div>
             </main>
