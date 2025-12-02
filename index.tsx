@@ -1,3 +1,4 @@
+'use client'
 
 type EnvVar = {
     envVar: string | undefined
